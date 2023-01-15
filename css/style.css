@@ -206,7 +206,9 @@ section.love-features {
 }
 
 /* sponsor section  */
-
+section.sponsor-sec {
+    padding-top: 80px !important;
+}
 .sponsor-info{
     text-align: center !important;
 }
@@ -214,7 +216,7 @@ section.love-features {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 .logo img {
     width: 100%;
@@ -259,7 +261,7 @@ input[type="email"] {
 }
 /* footer  */
 footer{
-    padding:5% 60px 5% 60px;
+    padding:0% 60px 5% 60px;
 }
 .footer-sec{
     background-color: #FFF4E7;
@@ -324,7 +326,7 @@ footer{
     text-align: center;
 }
 .heading-two{
-    font-size: 20px;
+    font-size: 25px;
 }
 .hero-content p, .feature-content p ,.feature-sec p{
     font-size: 13px;
@@ -387,7 +389,7 @@ section.fact-sec {
 /* newsletter  */
 
 .form{
-    padding: 40px 0;
+    padding: 20px 0;
     margin: 5%;
 }
 input[type="email"] {
