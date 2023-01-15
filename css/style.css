@@ -1,0 +1,263 @@
+/* font family  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin: 0;
+    background: rgba(255, 144, 14, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:5% 60px 5% 60px;
+}
+    .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hero-content {
+    text-align: center;
+    padding: 60px;
+}
+
+.hero-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    color:  #131313;
+}
+
+.hero-content p, .feature-content p{
+    color: #727272;
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+
+.hero-button{
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+/* feature style  */
+.feature-sec{
+    padding:5% 60px 5% 60px;
+    background: #FFFFFF;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.ftr-img img{
+    width: 340px;
+    height: 340px;
+}
+.feature-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+}
+.heading-two{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.ftr-span{
+    color: #727272 !important;
+}
+ .feature-span{
+    color: #FF900E;
+}
+/* love feature  */
+
+.love-feature-content p , .fact-sec p, .sponsor-info p{
+    color: #727272;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.love-paragraph{
+    padding: 40px 0;
+}
+section.love-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 100px;
+    padding: 100px 0;
+}
+.love-heading {
+    border-left: 5px solid #ff900e;
+    padding-left: 10px;
+}
+.love-feature-img img{
+    width: 600px;
+    height: 982;
+}
+.text-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+}
+.love-feature-img{
+    position: relative;
+}
+
+.experience{
+    width: 340px;
+    height: 200px;
+    background: #FF900E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -13%;
+    left: -15%;
+}
+.experience h2{
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.experience p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+/* fact  */
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0;
+}
+.fact {
+    width: 240px;
+    height: 240px;
+    padding: 40px 25px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+.fact h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;;
+}
+.fact p{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+}
+
+/* sponsor section  */
+
+.sponsor-info{
+    text-align: center !important;
+}
+.sponsor-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.logo img{
+    width: 100%;
+}
+
+
+footer{
+    padding:5% 60px 5% 60px;
+}
+.footer-sec{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.footer-sec p{
+    font-size: 20px;
+    color: #424242;
+}
+
+
+
+
+
+@media only screen and (max-width: 688px){
+ .nav-container{
+    flex-direction: column;
+    gap: 15px;
+ }
+ header{
+    padding-left: 2%;
+    padding-right: 2%;
+ }
+ .logo h1{
+    font-size: 35px;
+ }
+ .hero-content h1{
+    font-size: 22px;
+ }
+ .hero-content p {
+    font-size: 13px;
+    padding: 30px 0;
+}
+.hero-content button{
+    font-size: 14px;
+}
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px){
+
+    .logo h1, .hero-content h1{
+        font-size: 35px;
+    }
+    .menu ul li a{
+        font-size: 16px;
+    }
+}
