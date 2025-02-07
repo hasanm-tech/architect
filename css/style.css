@@ -275,7 +275,9 @@ footer{
 }
 
 
-
+.experience {
+    display: none !important;
+}
 
 
 @media only screen and (max-width: 688px){
